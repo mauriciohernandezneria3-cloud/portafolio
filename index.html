@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container" id="home">
+    <div class="image-section">
+      <img src="img/personaje.png" alt="personaje" class="character">
+    </div>
+
+    <div class="text-section">
+       <div class="symbols">前進し続けて</div>
+       <div class="brush-stroke"></div>
+      <div class="title-line">
+        <h1 class="title">PORT</h1>
+        <div class="play-button" id="playBtn">▶</div>
+      </div>
+      <h1 class="title"><span>FOLIO</span></h1>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <h2>Bienvenido a mi Portafolio</h2>
+    <p>Soy Mauricio Hernández. Estudiante de Diseño Gráfico en constante búsqueda de nuevas formas de comunicar. 
+      Mi pasión es transformar ideas en imágenes impactantes. Explora mis proyectos justo aquí.</p>
+    <button id="goProjects">Ver Proyectos ↓</button>
+    <button id="closeBtn">Cerrar ✕</button>
+  </div>
+
+  <section class="projects" id="projects">
+    <button class="back-btn" id="backBtn">← Regresar a portada</button>
+    <h2>Mis Proyectos</h2>
+    
+ 
+   <div class="carousel">
+    <button id="prevBtn" class="arrow">◀</button>
+
+    <div class="carousel-track" id="carouselTrack">
+      <img src="img/proyecto1.png" class="project" alt="Proyecto 1">
+      <img src="img/proyecto2.png" class="project" alt="Proyecto 2">
+      <img src="img/proyecto3.png" class="project" alt="Proyecto 3">
+    </div>
+
+    <button id="nextBtn" class="arrow">▶</button>
+  </div>
+ </section>
+
+  <footer>
+    <p>© 2025 Mi Portafolio </p>
+  </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
